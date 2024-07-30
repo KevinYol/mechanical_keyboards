@@ -78,15 +78,15 @@ p{
   flex-direction: row;
 }
 #fullsize-keyboard {
-  width: 40%;
+  width: 55%;
   height: 120px;
 }
 #tkl-keyboard{
-  width:35%;
+  width:30%;
   height: 120px;
 }
 #compact-keyboard{
-  width: 25%;
+  width: 15%;
   height: 140px;
   margin-top: -30px;
 
