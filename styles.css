@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  min-width: 280px;
+  
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+#navbar{
+  position: fixed;
+  min-width: 280px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 1px solid;
+  line-height: 1.8;
+}
+
+header{
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+  min-width: 300px;
+}
+
+#main-doc header{
+  text-align: left;
+  margin-left: 15px;
+}
+#navbar ul {
+  height: 90%;
+  width: 100%;
+  position: relative;
+  overflow-y: relative;
+  overflow-x: hidden;
+}
+#navbar li {
+  border-top: 1px solid black;
+  padding:2px 5px;
+}
+#navbar a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left: 302px;
+  border-left: 1px solid;
+  padding-bottom: 20px;
+}
+
+section article{
+  margin: 25px;
+}
+
+section li{
+  margin: 10px 5px 10px 45px;
+}
+a{
+  margin: 15px 15px 10px 30px;
+}
+p{
+  text-indent: 2em;
+  padding-bottom: 5px;
+}
+
+.images{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#fullsize-keyboard {
+  width: 40%;
+  height: 120px;
+}
+#tkl-keyboard{
+  width:35%;
+  height: 120px;
+}
+#compact-keyboard{
+  width: 25%;
+  height: 140px;
+  margin-top: -30px;
+
+}
+@media (max-width: 800px){
+  #navbar ul{
+  height: 215px;
+  border: 2px solid;
+}
+
+  #navbar{
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 200px;
+  
+  }
+
+  #main-doc{
+  position: relative;
+  margin-left: 0;
+  margin-top: 320px;
+  width: 100%;
+  }
+  .images{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px auto;
+  margin: 0 auto;
+}
+#fullsize-keyboard {
+  width: 80%;
+  height: 150px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+#tkl-keyboard{
+  width:80%;
+  height: 150px;
+  vertical-align: middle;
+}
+#compact-keyboard{
+  width: 80%;
+  height: 200px;
+  margin-top: -40px;
+  z-index: -1;
+}
+#switch-image{
+  width: 90%;
+  height: 140px;
+}
+}
+
+@media (max-width: 600px) {
+
+  #navbar ul{
+  height: 200px;
+  border: 2px solid;
+}
+
+  #navbar{
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 200px;
+  
+  }
+
+  #main-doc{
+  position: relative;
+  margin-left: 2px;
+  margin-top: 300px;
+  width: 100%;
+  }
+  a{
+  margin: 15px 0px;
+  }
+  .images{
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px auto;
+  margin: 0 auto;
+}
+#fullsize-keyboard {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+#tkl-keyboard{
+  width:80%;
+  height: 50px;
+  vertical-align: middle;
+}
+#compact-keyboard{
+  width: 80%;
+  height: 75px;
+  margin-top: -20px;
+  z-index: -1;
+}
+#switch-image{
+  width: 90%;
+  height: 140px;
+}
+}
